@@ -7,8 +7,6 @@
 4. Тест должен запускаться с параметром language следующей командой:
 pytest --language=es test_main_page.py
 '''
-from selenium.webdriver.common.by import By
-from time import sleep
 from pages.main_page import MainPage
 
 
